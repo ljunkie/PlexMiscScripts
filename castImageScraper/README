@@ -1,6 +1,7 @@
 # Requirements
   * Local PMS Server
-  * PHP cli
+  * PHP cli 
+  * PHP SQlite (PDO)
   * API key from TMDB (themoviedb.org)
 
 # HowTo
