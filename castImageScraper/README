@@ -1,0 +1,14 @@
+# Requirements
+  * Local PMS Server
+  * PHP cli
+  * API key from TMDB (themoviedb.org)
+
+# HowTo
+
+  1) Scrape for EVERY cast member missing an image ( ONLY run this once a day )
+      php scrape_tmdb.php --all
+
+  2) Scrape for EVERY cast member updated within the last day missing an image ( run this HOURLY )
+     php scrape_tmdb.php
+
+

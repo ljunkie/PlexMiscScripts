@@ -1,0 +1,7 @@
+
+# scrape all unknown every day (DO NOT run this more than once a day)
+25 8 * * * root php /opt/castImageScraper/scrape_tmdb.php --all
+
+# scrape last day every hour
+1 * * * * root php /opt/castImageScraper/scrape_tmdb.php
+
